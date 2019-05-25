@@ -2,8 +2,13 @@
   "name": "node-3-mini",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3005",
+  "main": "./server/index.js",
   "dependencies": {
     "axios": "^0.18.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
